@@ -25,7 +25,7 @@ def pytest_addoption(parser):
 
 
 @pytest.fixture
-def open_browser(request):
+def browser(request):
     browser = request.config.getoption("--browser")
     base_url = request.config.getoption("--url")
 
@@ -51,6 +51,8 @@ def open_browser(request):
 
     driver.base_url = base_url
 
-    yield driver
+    request.addfinalizer(driver.quit)
+    driver.maximize_window()
+    driver.get(base_url)
 
-    driver.close()
+    return driver
