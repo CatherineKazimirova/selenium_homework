@@ -3,3 +3,4 @@ venv
 .pytest_cache
 requirements.txt
 geckodriver.log
+allure-results

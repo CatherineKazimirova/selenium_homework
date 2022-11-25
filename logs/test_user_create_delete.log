@@ -1,0 +1,26 @@
+2022-11-26 00:03:06,515 - test_user_create_delete - INFO - ===> Test test_user_create_delete started at 2022-11-26 00:03:06.515378
+2022-11-26 00:03:18,331 - test_user_create_delete - INFO - Browser:chrome
+2022-11-26 00:03:18,409 - Header - INFO - Click element: ('css selector', 'a[title="My Account"]')
+2022-11-26 00:03:18,936 - Header - INFO - Click element: ('css selector', 'ul[class*=dropdown-menu] a[href*=register]')
+2022-11-26 00:03:19,707 - RegistrationPage - INFO - Paste uniquename into ('css selector', '#input-firstname')
+2022-11-26 00:03:19,965 - RegistrationPage - INFO - Paste uniquelastname into ('css selector', '#input-lastname')
+2022-11-26 00:03:20,177 - RegistrationPage - INFO - Paste uniquelastname@yandex.com into ('css selector', '#input-email')
+2022-11-26 00:03:20,371 - RegistrationPage - INFO - Paste 911911 into ('css selector', '#input-telephone')
+2022-11-26 00:03:20,517 - RegistrationPage - INFO - Paste QWERTY into ('css selector', '#input-password')
+2022-11-26 00:03:20,734 - RegistrationPage - INFO - Paste QWERTY into ('css selector', '#input-confirm')
+2022-11-26 00:03:20,926 - RegistrationPage - INFO - Click element: ('css selector', 'input[type=checkbox]')
+2022-11-26 00:03:21,192 - RegistrationPage - INFO - Click element: ('css selector', 'input[value=Continue]')
+2022-11-26 00:03:22,202 - RegistrationPage - INFO - Checking text 'Your Account Has Been Created!' is present in ('css selector', '#content h1')
+2022-11-26 00:03:22,753 - AdminPanel - INFO - Paste user into ('css selector', '#input-username')
+2022-11-26 00:03:22,936 - AdminPanel - INFO - Paste bitnami into ('css selector', '#input-password')
+2022-11-26 00:03:23,343 - AdminPanel - INFO - Click element: ('css selector', 'button[type=submit]')
+2022-11-26 00:03:23,890 - AdminPanel - INFO - Click element: ('css selector', '#menu-customer')
+2022-11-26 00:03:24,156 - AdminPanel - INFO - Click element: ('css selector', "#collapse5 a[href*='customer/customer&']")
+2022-11-26 00:03:24,909 - AdminPanel - INFO - Paste uniquename uniquelastname into ('css selector', '#input-name')
+2022-11-26 00:03:25,387 - AdminPanel - INFO - Click element: ('css selector', '#button-filter')
+2022-11-26 00:03:25,888 - AdminPanel - INFO - Click element: ('css selector', 'tbody input[type=checkbox]')
+2022-11-26 00:03:26,128 - AdminPanel - INFO - Click element: ('css selector', "[data-original-title='Delete']")
+2022-11-26 00:03:26,292 - AdminPanel - INFO - Alert has shown
+2022-11-26 00:03:26,300 - AdminPanel - INFO - Alert accepted
+2022-11-26 00:03:26,319 - AdminPanel - INFO - Check delete confirmation in the element: ('css selector', 'div[class*=alert-success]')
+2022-11-26 00:03:26,840 - test_user_create_delete - INFO - ===> Test test_user_create_delete finished at 2022-11-26 00:03:26.840332

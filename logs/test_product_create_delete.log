@@ -1,0 +1,21 @@
+2022-11-26 00:03:06,515 - test_product_create_delete - INFO - ===> Test test_product_create_delete started at 2022-11-26 00:03:06.515456
+2022-11-26 00:03:18,434 - test_product_create_delete - INFO - Browser:chrome
+2022-11-26 00:03:19,527 - AdminPanel - INFO - Paste user into ('css selector', '#input-username')
+2022-11-26 00:03:19,772 - AdminPanel - INFO - Paste bitnami into ('css selector', '#input-password')
+2022-11-26 00:03:20,014 - AdminPanel - INFO - Click element: ('css selector', 'button[type=submit]')
+2022-11-26 00:03:20,627 - AdminPanel - INFO - Click element: ('css selector', '#menu-catalog')
+2022-11-26 00:03:20,786 - AdminPanel - INFO - Click element: ('css selector', "#collapse1 a[href*='catalog/product&']")
+2022-11-26 00:03:21,813 - AdminProductsPage - INFO - Click element: ('css selector', "[data-original-title='Add New']")
+2022-11-26 00:03:22,898 - AdminProductsPage - INFO - Paste Product10987655432 into ('css selector', '#input-name1')
+2022-11-26 00:03:23,424 - AdminProductsPage - INFO - Paste Product10987655432 tag title into ('css selector', '#input-meta-title1')
+2022-11-26 00:03:23,845 - AdminProductsPage - INFO - Click element: ('css selector', "a[href='#tab-data']")
+2022-11-26 00:03:24,025 - AdminProductsPage - INFO - Paste Model10987655432 into ('css selector', '#input-model')
+2022-11-26 00:03:24,492 - AdminProductsPage - INFO - Click element: ('css selector', "[data-original-title='Save']")
+2022-11-26 00:03:25,355 - AdminPanel - INFO - Paste Product10987655432 into ('css selector', '#input-name')
+2022-11-26 00:03:25,580 - AdminPanel - INFO - Click element: ('css selector', '#button-filter')
+2022-11-26 00:03:26,090 - AdminPanel - INFO - Click element: ('css selector', 'tbody input[type=checkbox]')
+2022-11-26 00:03:26,245 - AdminPanel - INFO - Click element: ('css selector', "[data-original-title='Delete']")
+2022-11-26 00:03:26,432 - AdminPanel - INFO - Alert has shown
+2022-11-26 00:03:26,438 - AdminPanel - INFO - Alert accepted
+2022-11-26 00:03:26,461 - AdminPanel - INFO - Check delete confirmation in the element: ('css selector', 'div[class*=alert-success]')
+2022-11-26 00:03:26,839 - test_product_create_delete - INFO - ===> Test test_product_create_delete finished at 2022-11-26 00:03:26.839094

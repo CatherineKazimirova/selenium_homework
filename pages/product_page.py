@@ -1,5 +1,6 @@
+import allure
 from selenium.webdriver.common.by import By
-from pages.BasePage import BasePage
+from pages.base_page import BasePage
 
 
 class ProductPage(BasePage):
@@ -9,15 +10,17 @@ class ProductPage(BasePage):
     TAB_REVIEW = (By.CSS_SELECTOR, '[href = "#tab-review"]')
     FAVORITE_BTN = (By.CSS_SELECTOR, '[data-original-title="Add to Wish List"]')
     COMPARE_BTN = (By.CSS_SELECTOR, '[data-original-title="Compare this Product"]')
-    CART_BTN = (By.CSS_SELECTOR, '#button-cart')
+    CART_BTN = (By.CSS_SELECTOR, 'div.form-group #button-cart')
 
+    @allure.step("Choose the first product in category")
     def go_to_product_page(self):
-        self.element(self.PRODUCT).click()
+        self.click_element(self.PRODUCT)
 
+    @allure.step("Check product card elements")
     def verify_elements(self):
-        self.element(self.TAB_DESCRIPTION)
-        self.element(self.TAB_SPEC)
-        self.element(self.TAB_REVIEW)
-        self.element(self.FAVORITE_BTN)
-        self.element(self.COMPARE_BTN)
-        self.element(self.CART_BTN)
+        self.check_element(self.TAB_DESCRIPTION)
+        self.check_element(self.TAB_SPEC)
+        self.check_element(self.TAB_REVIEW)
+        self.check_element(self.FAVORITE_BTN)
+        self.check_element(self.COMPARE_BTN)
+        self.check_element(self.CART_BTN)

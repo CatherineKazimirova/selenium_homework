@@ -1,0 +1,12 @@
+2022-11-26 00:03:06,515 - test_product_card - INFO - ===> Test test_product_card started at 2022-11-26 00:03:06.515206
+2022-11-26 00:03:19,594 - test_product_card - INFO - Browser:chrome
+2022-11-26 00:03:19,606 - CatalogPage - INFO - Click element: ('css selector', 'li[class=dropdown] > a[href$="/laptop-notebook"]')
+2022-11-26 00:03:19,892 - CatalogPage - INFO - Click element: ('css selector', 'div[class=dropdown-menu] a[href$="/laptop-notebook"]')
+2022-11-26 00:03:20,343 - ProductPage - INFO - Click element: ('css selector', 'div.row > div:nth-child(1) div.image')
+2022-11-26 00:03:24,287 - ProductPage - INFO - Checking element: ('css selector', '[href = "#tab-description"]')
+2022-11-26 00:03:24,493 - ProductPage - INFO - Checking element: ('css selector', '[href = "#tab-specification"]')
+2022-11-26 00:03:24,666 - ProductPage - INFO - Checking element: ('css selector', '[href = "#tab-review"]')
+2022-11-26 00:03:25,152 - ProductPage - INFO - Checking element: ('css selector', '[data-original-title="Add to Wish List"]')
+2022-11-26 00:03:25,397 - ProductPage - INFO - Checking element: ('css selector', '[data-original-title="Compare this Product"]')
+2022-11-26 00:03:25,460 - ProductPage - INFO - Checking element: ('css selector', 'div.form-group #button-cart')
+2022-11-26 00:03:25,589 - test_product_card - INFO - ===> Test test_product_card finished at 2022-11-26 00:03:25.588957
