@@ -1,5 +1,6 @@
+import allure
 from selenium.webdriver.common.by import By
-from pages.BasePage import BasePage
+from pages.base_page import BasePage
 
 
 class CatalogPage(BasePage):
@@ -13,15 +14,19 @@ class CatalogPage(BasePage):
     SHOW_DROPDOWN = (By.CSS_SELECTOR, '#input-limit')
     SHOW_DROPDOWN_LIST = (By.CSS_SELECTOR, '#input-limit > option:nth-child(n)')
 
+    @allure.step("Open category page")
     def go_to_category_page(self):
-        self.element(self.LAPTOP_CATEGORY).click()
-        self.element(self.LAPTOP_CATEGORY_DROPDOWN).click()
+        with allure.step("Click category button in header"):
+            self.click_element(self.LAPTOP_CATEGORY)
+        with allure.step("Chose category in dropdown menu"):
+            self.click_element(self.LAPTOP_CATEGORY_DROPDOWN)
 
+    @allure.step("Check elements on catalog page")
     def verify_elements(self):
-        self.element(self.LIST_VIEW_BUTTON)
-        self.element(self.GRID_VIEW_BUTTON)
-        self.element(self.COMPARE_LINK)
-        self.element(self.SORT_DROPDOWN).click()
-        self.elements(self.SORT_DROPDOWN_LIST)
-        self.element(self.SHOW_DROPDOWN).click()
-        self.elements(self.SHOW_DROPDOWN_LIST)
+        self.check_element(self.LIST_VIEW_BUTTON)
+        self.check_element(self.GRID_VIEW_BUTTON)
+        self.check_element(self.COMPARE_LINK)
+        self.check_element(self.SORT_DROPDOWN).click()
+        self.check_elements(self.SORT_DROPDOWN_LIST)
+        self.check_element(self.SHOW_DROPDOWN).click()
+        self.check_elements(self.SHOW_DROPDOWN_LIST)

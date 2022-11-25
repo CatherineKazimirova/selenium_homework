@@ -1,5 +1,6 @@
+import allure
 from selenium.webdriver.common.by import By
-from pages.BasePage import BasePage
+from pages.base_page import BasePage
 
 
 class MainPage(BasePage):
@@ -10,9 +11,13 @@ class MainPage(BasePage):
     FEATURED_PRODUCTS = (By.CSS_SELECTOR, 'div[class*=product-layout]')
     LOWER_CAROUSEL_BULLETS = (By.CSS_SELECTOR, 'div[class*=carousel0] span:nth-child(n)')
 
+    @allure.step("Check top slider")
+    def verify_elements_slider(self):
+        self.check_element(self.FIRST_SLIDE)
+        self.check_element(self.SECOND_SLIDE)
+
+    @allure.step("Check other elements")
     def verify_elements(self):
-        self.element(self.FIRST_SLIDE)
-        self.element(self.SECOND_SLIDE)
-        self.text(self.HEADER, self.TEXT_IN_HEADER)
-        self.elements(self.FEATURED_PRODUCTS)
-        self.elements(self.LOWER_CAROUSEL_BULLETS)
+        self.check_text(self.HEADER, self.TEXT_IN_HEADER)
+        self.check_elements(self.FEATURED_PRODUCTS)
+        self.check_elements(self.LOWER_CAROUSEL_BULLETS)

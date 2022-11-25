@@ -1,0 +1,7 @@
+2022-11-26 00:03:06,515 - test_login - INFO - ===> Test test_login started at 2022-11-26 00:03:06.515793
+2022-11-26 00:03:14,768 - test_login - INFO - Browser:chrome
+2022-11-26 00:03:14,784 - Header - INFO - Checking element: ('css selector', 'a[title="My Account"]')
+2022-11-26 00:03:14,916 - Header - INFO - Checking element: ('css selector', 'ul[class*=dropdown-menu] a[href*=login]')
+2022-11-26 00:03:15,150 - LoginPage - INFO - Checking text 'Returning 1111Customer' is present in ('css selector', '#content div:nth-child(2) h2')
+2022-11-26 00:03:20,894 - LoginPage - ERROR - Text 'Returning 1111Customer' is not as we expected in the element ('css selector', '#content div:nth-child(2) h2')
+2022-11-26 00:03:21,192 - test_login - INFO - ===> Test test_login finished at 2022-11-26 00:03:21.192210

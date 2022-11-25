@@ -1,0 +1,10 @@
+2022-11-26 00:03:06,515 - test_registration_page - INFO - ===> Test test_registration_page started at 2022-11-26 00:03:06.515164
+2022-11-26 00:03:22,642 - test_registration_page - INFO - Browser:chrome
+2022-11-26 00:03:22,682 - Header - INFO - Click element: ('css selector', 'a[title="My Account"]')
+2022-11-26 00:03:22,873 - Header - INFO - Click element: ('css selector', 'ul[class*=dropdown-menu] a[href*=register]')
+2022-11-26 00:03:23,640 - RegistrationPage - INFO - Click element: ('css selector', 'input[value=Continue]')
+2022-11-26 00:03:24,298 - RegistrationPage - INFO - Checking text 'First Name must be between 1 and 32 characters!' is present in ('css selector', '#account div:nth-child(3) div.text-danger')
+2022-11-26 00:03:24,460 - RegistrationPage - INFO - Checking text 'Last Name must be between 1 and 32 characters!' is present in ('css selector', '#account div:nth-child(4) div.text-danger')
+2022-11-26 00:03:24,519 - RegistrationPage - INFO - Checking text 'E-Mail Address does not appear to be valid!' is present in ('css selector', '#account div:nth-child(5) div.text-danger')
+2022-11-26 00:03:24,576 - RegistrationPage - INFO - Checking text 'Telephone must be between 3 and 32 characters!' is present in ('css selector', '#account div:nth-child(6) div.text-danger')
+2022-11-26 00:03:24,747 - test_registration_page - INFO - ===> Test test_registration_page finished at 2022-11-26 00:03:24.747327

@@ -1,0 +1,15 @@
+2022-11-26 00:03:06,515 - test_currency_change - INFO - ===> Test test_currency_change started at 2022-11-26 00:03:06.515073
+2022-11-26 00:03:25,357 - test_currency_change - INFO - Browser:chrome
+2022-11-26 00:03:25,373 - Header - INFO - Click element: ('css selector', '#form-currency')
+2022-11-26 00:03:25,635 - Header - INFO - Checking element: ('css selector', 'button[name=USD]')
+2022-11-26 00:03:25,776 - Header - INFO - Click element: ('css selector', 'button[name=USD]')
+2022-11-26 00:03:26,403 - Header - INFO - Checking element: ('css selector', '#form-currency strong')
+2022-11-26 00:03:26,527 - Header - INFO - Click element: ('css selector', '#form-currency')
+2022-11-26 00:03:26,645 - Header - INFO - Checking element: ('css selector', 'button[name=EUR]')
+2022-11-26 00:03:26,703 - Header - INFO - Click element: ('css selector', 'button[name=EUR]')
+2022-11-26 00:03:27,305 - Header - INFO - Checking element: ('css selector', '#form-currency strong')
+2022-11-26 00:03:27,374 - Header - INFO - Click element: ('css selector', '#form-currency')
+2022-11-26 00:03:27,440 - Header - INFO - Checking element: ('css selector', 'button[name=GBP]')
+2022-11-26 00:03:27,489 - Header - INFO - Click element: ('css selector', 'button[name=GBP]')
+2022-11-26 00:03:27,705 - Header - INFO - Checking element: ('css selector', '#form-currency strong')
+2022-11-26 00:03:27,823 - test_currency_change - INFO - ===> Test test_currency_change finished at 2022-11-26 00:03:27.823182

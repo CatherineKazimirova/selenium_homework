@@ -1,0 +1,12 @@
+2022-11-26 00:03:06,516 - test_catalog - INFO - ===> Test test_catalog started at 2022-11-26 00:03:06.516656
+2022-11-26 00:03:17,173 - test_catalog - INFO - Browser:chrome
+2022-11-26 00:03:17,187 - CatalogPage - INFO - Click element: ('css selector', 'li[class=dropdown] > a[href$="/laptop-notebook"]')
+2022-11-26 00:03:17,282 - CatalogPage - INFO - Click element: ('css selector', 'div[class=dropdown-menu] a[href$="/laptop-notebook"]')
+2022-11-26 00:03:17,594 - CatalogPage - INFO - Checking element: ('css selector', '#list-view')
+2022-11-26 00:03:17,628 - CatalogPage - INFO - Checking element: ('css selector', '#grid-view')
+2022-11-26 00:03:17,653 - CatalogPage - INFO - Checking element: ('css selector', '#compare-total')
+2022-11-26 00:03:17,676 - CatalogPage - INFO - Checking element: ('css selector', '#input-sort')
+2022-11-26 00:03:17,758 - CatalogPage - INFO - Checking elements: ('css selector', '#input-sort > option:nth-child(n)')
+2022-11-26 00:03:18,014 - CatalogPage - INFO - Checking element: ('css selector', '#input-limit')
+2022-11-26 00:03:18,176 - CatalogPage - INFO - Checking elements: ('css selector', '#input-limit > option:nth-child(n)')
+2022-11-26 00:03:18,593 - test_catalog - INFO - ===> Test test_catalog finished at 2022-11-26 00:03:18.593897
